@@ -48,4 +48,4 @@ COPY --from=build /app/prisma ./prisma
 
 # ENV NODE_OPTIONS="--max-old-space-size=512"
 
-CMD ["npm", "start"]
+CMD ["node", "start"]
